@@ -1,0 +1,677 @@
+p{margin: 0;margin-block-start: 0%;}
+.Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-inline: 5vw;
+}
+
+.logo {
+    width: 217px;
+    height: 43px;
+    align-self: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+
+}
+
+.headerTitle {
+    font-family: Helvetica;
+    font-size: 1.2rem;
+    text-align: center;
+    color:#000;
+    font-weight: 600;
+}
+
+.divider {
+}
+
+.headerText {
+    font-family: "Noto Sans";
+    line-height: 19px;
+    text-align: left;
+    padding-inline: 5vw;
+    font-size: 15px;
+    margin-bottom: 1rem;
+}
+
+.banner {
+}
+
+.FormTitle {
+    font-family: "Noto Sans";
+    line-height: 19px;
+    text-align: left;
+    padding-inline: 5vw;
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 2rem;
+    color:#374A81;
+}
+
+.inputTitle {
+    font-family: "Noto Sans";
+    line-height: 15px;
+    text-align: left;
+    padding-inline: 5vw;
+    margin-bottom: 0.7rem;
+    font-weight: 600;
+    font-size: 15px;
+    color:#666666;
+}
+.inputTitle3 {
+    font-family: "Noto Sans";
+    line-height: 15px;
+    text-align: left;
+
+    font-weight: 600;
+    font-size: 15px;
+    color:#666666;
+}
+
+
+.FormInput {
+    font-family: "Noto Sans";
+    height: 3rem;
+    width: 90vw;
+    color:#666666;
+    display: flex;
+    align-items: center;
+    margin-inline: auto;
+    margin-bottom: 0.7rem;
+    margin-top: 0.2rem;
+    border: 1px solid #0000003d;
+    border-radius: 8px;
+    padding-inline: 8px;
+    font-size: 0.9;
+}
+
+.FormInput3 {
+    font-family: "Noto Sans";
+    height: 3rem;
+    width: 90vw;
+    color:#666666;
+    display: flex;
+    align-items: center;
+    margin-inline: auto;
+    margin-bottom: 0.7rem;
+    margin-top: 0.2rem;
+    border: 1px solid #0000003d;
+    border-radius: 8px;
+    font-size: 0.9;
+}
+
+.FormInputDate{
+    font-weight: 600;
+    font-family: "Noto Sans";
+    height: 3rem;
+    width: 90vw;
+    margin-inline: auto;
+    margin-bottom: 0.7rem;
+    margin-top: 0.2rem;
+    border: 1px solid #0000003d;
+    border-radius: 8px;
+    padding-inline: 8px;
+    font-size: 0.9;
+    color: #ED3438; 
+    text-transform:uppercase;
+  
+}
+
+.inputTitle2 {
+    font-family: "Noto Sans";
+    line-height: 15px;
+    text-align: left;
+    padding-inline: 5vw;
+    font-weight: 600;
+    font-size: 15px;
+    color:rgba(102, 102, 102, 0.689)
+}
+
+.HalfInputCont {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Crea dos columnas de igual tamaño */
+    gap: 10px; /* Espacio entre los inputs */
+    justify-content: space-between; /* Justifica el contenido para que los márgenes sean iguales en los extremos */
+    align-items: center; /* Centra los items verticalmente */
+    padding: 10px;
+    padding-inline: 3vw;
+}
+
+.FormHalftInput {
+    height: 3rem;
+    width: 40vw;
+
+    margin-bottom: 0.7rem;
+    margin-top: 0.2rem;
+    border: 1px solid #0000003d;
+    border-radius: 8px;
+    padding-inline: 8px;
+    font-size: 0.9;
+}
+
+
+.checkBoxCont {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.checkBox {
+    width: 1.3rem;
+    height: 1.3rem;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    margin-right: 0.3rem;
+}
+
+.checkBoxSelected {
+    width: 1.3rem;
+    height: 1.3rem;
+    border: 1px solid #CCCCCC;
+    background-color: #b1b1b1 ;
+    border-radius: 4px;
+    margin-right: 0.3rem;
+}
+
+.checkBoxTitle {
+    font-family: Helvetica;
+    font-size: 1.2rem;
+    text-align: center;
+    color:#666666;
+    margin-right: 1rem;
+}
+
+.checkBoxCont1 {
+    width: 3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.checkCont{
+    display: flex;
+    align-items: center;
+}
+
+.checkBox1 {
+    min-width: 24px;
+    height: 24px;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    margin-right: 0.5rem;
+}    
+.checkBox1Selected {
+    min-width: 24px;
+    height: 24px;
+    border: 1px solid #CCCCCC;
+    background-color: #b1b1b1 ;
+    border-radius: 4px;
+    margin-right: 0.5rem;
+}  
+.checkBoxTitle1 {
+    font-family: Helvetica;
+    font-size: 1rem;
+    text-align: center;
+    text-align: start;
+    color:#666666;
+    margin-right: 1rem;
+}
+
+.nextButton {
+    width: 8rem;
+    height: 2.5rem;
+    color: #FFF;
+    font-family: Helvetica;
+    font-size: 1.2rem;
+    background-color: #374A81;
+    align-self: center;
+    border :0;
+    border-radius: 8px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.buttonContainer{
+    display: flex;
+    width: 80vw;
+    justify-content: space-between;
+    align-self: center;
+}
+.FormAddButton{
+    width: 2rem;
+    height: 2.5rem;
+    color: #FFF;
+    font-family: Helvetica;
+    font-size: 1.1rem;
+    background-color: #374A81;
+    align-self: center;
+    border :0;
+    border-radius: 8px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.nextPrevButton{
+    width: 8rem;
+    height: 2.5rem;
+    color: #FFF;
+    font-family: Helvetica;
+    font-size: 1.2rem;
+    background-color: #374A81;
+    align-self: center;
+    border :0;
+    border-radius: 8px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.nextPrevButton2{
+    width: 10rem;
+    height: 2.5rem;
+    color: #FFF;
+    font-family: Helvetica;
+    font-size: 1rem;
+    background-color: #374A81;
+    align-self: center;
+    border :0;
+    border-radius: 8px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.FormHalftSelect1{
+    height: 3rem;
+    width: 40vw;
+}
+
+.css-13cymwt-control{
+    height: 3rem;
+}
+.css-t3ipsp-control{
+    height: 3rem;
+}
+.FormHalftSelect{
+    height: 3rem;
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 0.7rem;
+    margin-top: 0.2rem;
+    border: 1px solid #0000003d;
+    border-radius: 8px;
+    padding-inline: 8px;
+    font-size: 0.9;
+}
+.FormSelect__control{
+    margin-bottom: 1rem;
+    height: 3rem;
+    max-width: 94vw;
+    margin-inline: 3vw; 
+}
+
+.css-tj5bde-Svg{
+    color:#ED3438
+}
+.FormSelect{
+    height: 3rem;
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 0.7rem;
+    margin-top: 0.2rem;
+    border: 1px solid #0000003d;
+    border-radius: 8px;
+    margin-inline: auto;
+    padding-inline: 8px;
+    font-size: 0.9;
+}
+.SelectCont{
+    display: flex;
+    flex-direction: column;
+}
+
+.selectTitle {
+    font-family: "Noto Sans";
+    line-height: 19px;
+    text-align: left;
+    margin-bottom: 0px;
+    font-weight: 600;
+    font-size: 13px;
+    color:#666666;
+}
+.downIcon{
+
+}
+
+.Input3Cont {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Crea dos columnas de igual tamaño */
+    gap: 8px; /* Espacio entre los inputs */
+    justify-content: space-between; /* Justifica el contenido para que los márgenes sean iguales en los extremos */
+    align-items: center; /* Centra los items verticalmente */
+    padding-inline:  5vw;
+}
+
+.dimensionClose{
+    position: absolute;
+    left: 92%;
+    font-size: 1.2rem;
+    color: #ED3438;
+    margin-top: 1.5rem;
+}
+
+.Form3Input {
+    height: 3rem;
+    width: 16vw;
+
+    margin-bottom: 0.7rem;
+    margin-top: 0.2rem;
+    border: 1px solid #0000003d;
+    border-radius: 8px;
+    padding-inline: 8px;
+    font-size: 0.9;
+}
+
+.FormSubTitle{
+    color:#374A81;
+    font-family: Helvetica;
+    font-size: 1rem;
+    padding-inline: 5vw;
+    font-weight: 600;
+}
+
+.FormSubTitle3{
+    color:#374A81;
+    font-family: Helvetica;
+    font-size: 1rem;
+
+    font-weight: 600;
+}
+
+.FormInput::file-selector-button {
+    display: none;
+}
+
+.formAbout{
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: -7px;
+    padding-inline-start: 14.5vw;
+    color: #374A81;
+}
+
+.Standar{
+    color: #374A81;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.Standar2{
+    color: #374A81;
+    text-align: left;
+
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.Optional{
+    color: #ED3438;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.Optional2{
+    color: #ED3438;
+    text-align: left;
+
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.thirdTitle{
+    font-family: "Noto Sans";
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin:0;
+    color:#666666;
+}
+
+.thirdText{
+    font-family: "Noto Sans";
+    font-size: 13px;
+    margin:0;
+    color:#666666;
+}
+
+.thirdCont{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.checkBoxTitle3{
+    color:#666666;
+    font-family: "Noto Sans";
+    font-size: 1rem;
+    margin-right: 1.1rem;
+}
+.CaptchaCont{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.formPreview{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.fieldGroup{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: Helvetica;
+    font-size: 1.1rem;
+    text-align: center;
+    color:#000;
+    font-weight: 500;
+    margin:0;
+}
+.fieldName{
+    margin: 5px 0;
+    font-family: Helvetica;
+    display: flex;
+    flex-direction: row;
+}
+
+.fieldValue{
+    color:#666666;
+    font-family: Helvetica;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin:0;
+}
+.fieldName3{
+    margin: 0;
+    font-family: Helvetica;
+    display: flex;
+    flex-direction: row;
+}
+
+.fieldValue3{
+    color: #666666;
+    font-family: Helvetica;
+    font-size: 0.8rem;
+    margin: 0;
+
+    text-align: justify;
+    height: min-content;
+    max-width: 90vw;
+     overflow: auto; /* Asegura que cualquier contenido que exceda el contenedor sea accesible */
+  white-space: normal; /* Asegura que el texto se ajuste al contenedor */
+    word-wrap: break-word;
+}
+.fieldValue2{
+    color:#666666;
+    font-family: Helvetica;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin:0;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+.servicePreview{
+    margin-block: 1rem ;
+}
+
+.fieldGroup3{
+    display: flex;
+    flex-direction: column;
+    max-width: 80vw;
+    font-family: Helvetica;
+    font-size: 1.1rem;
+    
+    text-align: center;
+    color:#000;
+    font-weight: 500;
+    margin:5px 0;
+}
+.fieldGroup2{
+    display: flex;
+    flex-direction: row;
+
+    font-family: Helvetica;
+    font-size: 1.1rem;
+    height: 2.8rem;
+    text-align: center;
+    color:#000;
+    font-weight: 500;
+    margin:0;
+}
+
+/* Estilos para pantallas de escritorio */
+@media only screen and (min-width: 769px) {
+    /* Estilos generales para pantallas de escritorio */
+    .Container,
+    .Container1 {
+      padding-inline: 10vw;
+    }
+    .FormSelect__control{
+        height: 3rem;
+        max-width: 51vw!important;
+        margin-bottom: 1rem;
+        margin-left: 14vw!important;
+        align-self: center;
+        margin-inline: 3vw; 
+    }
+    .FormSelect{
+        width: 50vw!important;
+        background-color: #374A81;
+    }
+    .logo {
+      width: 300px;
+      height: 60px;
+      margin-top: 3rem;
+      margin-bottom: 1.5rem;
+    }
+  
+    .headerTitle {
+      font-size: 1.5rem;
+    }
+  
+    .headerText,
+    .FormTitle,
+    .inputTitle,
+    .inputTitle3,
+    .inputTitle2,
+
+    .FormSubTitle,
+    .FormSubTitle3,
+    .thirdTitle,
+    .thirdText,
+    .Standar,
+    .Standar2,
+    .Optional,
+    .Optional2,
+    .selectTitle {
+        align-self: center;
+        margin-bottom: 0.8rem;
+        margin-top: 1.3rem;
+      font-size: 18px;
+    }
+  .HalfInputCont{
+    width: 50vw;
+    align-self: center;
+    padding: 0;
+    margin: 1rem 0;
+  }
+    .FormInput,
+    .FormInput3,
+    .FormInputDate,
+    .FormHalftInput{
+        height: 3.5rem;
+        width: 50vw;
+        font-size: 1rem;
+      }
+
+
+    .Form3Input{
+        width: 10vw;
+    } 
+
+    .FormHalftInput,
+    .FormHalftSelect1,
+    .FormHalftSelect{
+        width: 24.5vw;
+        padding: 0;
+        margin:0;
+
+    }
+    .FormAddButton{
+        width: 14rem;
+    }
+    .nextButton,
+    
+    .nextPrevButton,
+    .nextPrevButton2 {
+      width: 10rem;
+      height: 3rem;
+      font-size: 1.2rem;
+      margin-top: 1.5rem;
+      margin-bottom: 3rem;
+    }
+  
+    .buttonContainer {
+      width: 60vw;
+    }
+  
+    .CaptchaCont {
+      padding-top: 3rem;
+      padding-bottom: 1.5rem;
+    }
+  
+    .fieldValue3 {
+      font-size: 0.9rem;
+      max-width: 70vw;
+    }
+
+    .Input3Cont {
+   width: 50vw;
+   align-self: center;
+    }
+    
+  }

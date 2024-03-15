@@ -1,0 +1,237 @@
+html {
+  width: 793px; /* Ancho para A4 */
+  height: 1122px; /* Alto para A4 */
+}
+
+body {
+}
+
+.account-summary {
+  /* Estilos para la sección de resumen del estado de cuenta */
+}
+
+.client-data {
+  /* Estilos para la sección de datos del cliente */
+}
+
+.loan-data {
+  /* Estilos para la sección de datos del préstamo */
+}
+
+.complementary-products {
+  /* Estilos para la sección de productos complementarios */
+}
+
+.movements-detail {
+  /* Estilos para la sección de detalles de movimientos realizados */
+}
+
+.footer-info {
+  /* Estilos para la sección de información de pie de página */
+}
+
+.section-title-M {
+  /* Estilos para el título de sección */
+  background-color: #397b21;
+  height: 6rem !important;
+
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  padding-inline: 1rem;
+  font-weight: 700;
+  font-size: 1.7rem;
+}
+
+.section-title {
+  /* Estilos para el título de sección */
+  background-color: #397b21;
+  height: 3rem;
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+}
+
+.section-subtitle {
+  color: aliceblue;
+  margin: 0;
+  padding: 0;
+  font-size: 1.1rem;
+  font-weight: 400;
+  margin-bottom: 10px;
+  align-self: flex-start;
+}
+
+.info-table {
+  /* Estilos para las tablas de información */
+  margin-top: 1rem;
+  max-width: 793px; /* Ancho para A4 */
+}
+
+.data-highlight {
+  /* Estilos para resaltar datos importantes */
+}
+
+.table-container {
+  /* Estilos para el contenedor de tabla */
+  height: max-content;
+  margin-bottom: 1rem;
+}
+
+.contact-info {
+  /* Estilos para la información de contacto */
+}
+
+.th {
+  background-color: #eaedef;
+  margin: 0;
+  text-align: left;
+  padding-left: 7px;
+  min-width: 13rem;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+.td {
+  min-width: 11rem;
+  margin: 0;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.important {
+  margin: 0;
+  width: 45%;
+  font-size: 0.65rem;
+  font-style: italic;
+  font-weight: 500;
+}
+.Important-container {
+  padding-block: 2rem;
+  padding-inline: 5%;
+}
+.section-cont {
+  background-color: #397b21;
+  padding-inline: 1rem;
+  flex-direction: row;
+  height: 1.3rem;
+  justify-content: space-between;
+  display: flex;
+}
+.evalue {
+  margin: 0;
+  min-width: 16.5rem;
+  padding: 0;
+  font-size: 0.7rem;
+
+  text-align: left;
+  background-color: transparent;
+  margin: 0;
+  align-items: center;
+  justify-content: flex-start;
+  display: flex;
+  color: #eaedef;
+}
+.footer-table {
+  margin: 0;
+  width: 793px;
+  display: flex;
+  flex-direction: column;
+}
+.abody {
+  margin: 0;
+  width: 780px;
+  align-self: center;
+  padding-block: 1rem;
+  padding-inline: 1rem;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.InfoCont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 10rem;
+  align-items: center;
+  margin-block: 1rem;
+}
+
+.logoBig {
+  width: 368px;
+  height: 64.5;
+}
+.logoS {
+  scale: 0.5;
+  margin: 0;
+}
+.Footer {
+  background-color: #0d8c3d;
+  display: flex;
+  flex-direction: column;
+  min-width: 100%;
+  padding-bottom: 1rem;
+  align-items: center;
+}
+.footerTableValue {
+  font-size: 0.7rem;
+  margin-right: 10%;
+  display: flex;
+  flex-direction: column;
+}
+
+.footerTableFinal {
+  font-size: 0.9rem;
+  margin: 0;
+
+  text-align: center;
+  font-weight: 500;
+}
+.FotterTableText {
+  max-width: 22rem;
+  font-size: 0.7rem;
+  margin: 0;
+}
+
+.shortTitle {
+  background-color: #eaedef;
+  margin: 0;
+  text-align: left;
+  padding-left: 7px;
+
+  font-weight: 500;
+  font-size: 0.7rem;
+}
+
+.shortValue {
+  font-size: 0.85rem;
+
+  margin: auto;
+  font-weight: 500;
+}
+.FooterT {
+  color: #fff;
+  margin: 0.5rem;
+}
+.MAIN{
+  min-width: 1200px!important;
+}
+.pdf-container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.pdf-content {
+  width: 100vw;
+  height: 100vh;
+}
